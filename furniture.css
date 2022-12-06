@@ -1,0 +1,129 @@
+/* 사용 컬러 : 
+배경 - #ffefef, #f09b9b
+버튼 - #ffbfbf, #e24b4b
+서체 - #d80000, #8b0000, #460000 */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ffbfbf;
+}
+
+
+
+/* 구조화 */
+#wrap{
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+body{
+    background: #ffefef;
+}
+
+
+
+/* 상단공간 2022-11-18 HEIDI */
+header{
+    background: #fdfdfd;
+    box-shadow: 0 3px 5px rgb(226, 206, 206);
+    border-radius: 0 0 10px 10px;
+    opacity: 80%;
+    position: fixed;
+    top: 0;
+    width: inherit;
+    height: 90px;
+    z-index: 2000;
+    color: #460000;
+}
+h1{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+h1 a:hover{
+    color: #e24b4b;
+    font-weight: bold;
+}
+nav{
+    position: absolute;
+    right: 50px;
+    top: 18px;
+}
+nav li a:hover{
+    color: #e24b4b;
+    font-weight: bold;
+}
+nav li{
+    display: inline-block;
+    padding: 20px;
+}
+
+
+
+/* 하단공간 */
+footer{
+    background: #f09b9b;
+    height: 200px;
+    clear:both;
+    position: relative;
+    color: white;
+}
+footer li:nth-child(1){
+    width: 160px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+footer li:nth-child(1) p img{
+    width: 25px;
+    margin: 15px 10px;
+}
+footer li:nth-child(2){
+    width: 200px;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+}
+footer li:nth-child(3){
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+footer li:nth-child(2) p img{
+    width: 25px;
+    margin: 15px 5px;
+}
+footer .copy{
+    position: absolute;
+    bottom: 0;
+    background: #414141;
+    padding: 10px;
+    width: 97.8%;
+}
+footer .copy p{
+    text-align: center;
+}
+footer input{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+footer button{
+    padding: 3px 68px;
+    background: #e24b4b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+footer button:hover{
+    background:#8b0000;
+    color:white;
+    cursor:pointer;
+}
