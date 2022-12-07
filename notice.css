@@ -1,0 +1,56 @@
+/* 큰 틀 */
+section{
+    margin-top: 90px; 
+    background-color: #ffefef;
+}
+
+
+
+/* 서체 */
+section h2{
+    padding: 30px 0 0 10px; 
+    color: #460000;
+    font-size: 36px;
+}
+section p{
+    color: #d80000;
+    font-family: '맑은고딕';
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+
+/* article button */
+#layout001{
+    width: 500px;
+    float: left;
+    margin: 30px 0 50px 10px;
+}
+#layout002{
+    float: right;
+    margin: 30px 20px 100px 0;
+}
+article input, textarea{
+    border: 2px solid #ffbfbf;
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin-bottom: 3px;
+    width: 300px;
+    font-family: '맑은고딕';
+    font-size: 15px;
+    resize: none;
+}
+article button{
+    padding: 3px 40px;
+    background: #f09b9b;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-left: 226px;
+}
+article button:hover{
+    background:#e24b4b;
+    color:white;
+    cursor:pointer;
+}
