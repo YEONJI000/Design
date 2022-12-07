@@ -1,0 +1,45 @@
+/* 큰 틀 */
+section, article{
+    padding: 30px 0 0 30px;  
+    background-color: #ffefef;
+}
+section{
+    margin-top: 90px;
+    background: url(img/img04.jpg) no-repeat right 20px top 120px;
+    background-size: 400px 300px;
+}
+
+
+
+/* 서체 */
+section h2, article h2{
+    color: #460000;
+    font-size: 36px;
+}
+article ul h3{
+    color: #8b0000;
+    font-size: 20px;
+}
+section p, article p{
+    color: #d80000;
+    font-family: '맑은고딕';
+    font-size: 13px;
+    text-align: justify;
+}
+
+
+
+/* 내용 설정 */
+section p{
+    width: 48%;
+}
+article #list001{
+    width: 46%;
+    float: left;
+    margin-right: 20px;
+}
+article #list002{
+    width: 46%;
+    float: right;
+    margin-right: 20px;
+}
